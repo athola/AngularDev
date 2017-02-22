@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "suppressImplicitAnyIndexErrors":true
+  },
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "types": ["jasmine"],
+  "exclude": [
+    "node_modules"
+  ],
+  "filesGlob": [
+    "client/**/*.ts",
+    "typings/index.d.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": false
+  }
+}
